@@ -1,0 +1,96 @@
+*{
+    background-color: none;  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 1000px;
+    margin: auto;
+}
+
+
+/********
+Navigation area
+********/
+#nav-bar{
+    background-color: blueviolet;
+    padding: 5px;
+    
+}
+#nav-bar ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    
+}
+
+#nav-bar ul li a{/*CSS Specificity */
+    text-decoration: none;
+    color: white;
+}
+
+/********
+Hero image & Hero-text
+********/
+
+#flex-container{
+    display: flex;
+}
+/* #hero-image img{
+    width: 500px;
+    height: 700px;
+} */
+
+#hero-text{
+    background-color: lightgreen;
+    color: black;
+    padding: 25px 20;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+/********
+About area
+********/
+#about{
+    
+    background: plum;
+    padding: 25px;
+}
+
+/********
+Service area
+********/
+#service{
+    background-color: aqua;
+    padding: 25px;
+}
+
+/********
+Footer area
+********/
+#footer-area{
+    background-color: lightcoral;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+}
